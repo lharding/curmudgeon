@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'VT323';
+  font-style: normal;
+  font-weight: normal;
+  src: local('VT323'), url('VT323.ttf') format('woff');
+}
+
+
+body {
+	font-family: Helvetica, Arial, Sans-Serif;
+	color: #d8d8ff;
+	/*background-image: url('vfdback.png');*/
+	background-color: black;
+	margin: 1em;
+	text-shadow: #6060aa 0px 0px 5px;
+	max-width: 80em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6, .post_date, .post_meta_item, .navbox_link, .archive_list_item, .sidebar, .dsq-comment-header, .dsq-request-user-info {
+	font-family: 'VT323', Monaco, Courier, monospace;
+	text-shadow: #9090dd 0px 0px 5px;
+}
+
+.dsq-connect-msg {
+	color: black;
+}
+
+ul, menu, dir {
+	list-style-type: square;
+}
+
+.post, .dsq-comment-header {
+	background: #202020;
+	-moz-box-shadow: 2px 2px 3px #9090dd;
+	-webkit-box-shadow: 2px 2px 3px #9090dd;
+	box-shadow: 2px 2px 3px #9090dd;
+}
+
+.post, .post_comments {
+	margin-bottom: 24px;
+	padding: 16px;
+}
+
+.page_container {
+	margin-top: 16px;
+	width: 100%;
+	clear: both;	
+}
+
+.posts_container {
+	float: left;
+	width: 70%;
+}
+
+.sidebar_container {
+	float: right;
+	width: 30%;
+	min-width: 10em;
+}
+
+.sidebar {
+	margin-bottom: 32px;
+	margin-left: 16px;
+}
+
+.post_body {
+	text-align: justify;
+	margin-bottom: 16px;
+}
+
+.post_meta {
+	overflow: hidden;
+}
+
+.post_meta_item {
+	margin-right: 0.4em;
+}
+
+.navbox {
+	clear: both;
+}
+
+.navbox_link {
+	margin-right: 16px;
+}
+
+.blog_title_container {
+	clear: both;
+	margin-bottom: 40px;
+	/*width: 50%;*/
+}
+
+.blog_title, .tagline, .post_title, .sidebar_title {
+	margin-top: 0px;
+}
+
+.blog_title, .tagline {
+	/*margin-bottom: 48px;*/
+	text-transform: uppercase;
+}
+
+.blog_title {
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.title_img {
+	top: -4px;
+	right: -4px;
+	position: fixed;
+	width: 256px;
+	height: 64px;
+}
+
+.logo {
+	float: right;
+	width: 4em;
+	white-space: pre;
+	text-align: right;
+}
+
+.tagline {
+	/*float: right;
+	margin-top: 8px;*/
+}
+
+/*.blog_title {
+	float: left;
+}*/

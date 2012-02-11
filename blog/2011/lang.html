@@ -1,0 +1,110 @@
+<html>
+<head>
+	<title>TV Typewriter - Language and Iconography
+</title>
+	<link rel="stylesheet" type="text/css" href="assets/style.css" />
+	<script type="text/javascript">
+		/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+		var disqus_shortname = 'fremde'; // required: replace example with your forum shortname
+		var disqus_developer = 0; // developer mode is on
+
+		var taglines = [
+			"I've got two red buttons and a four way pad",
+			"Kobayashi Maru on Legendary",
+			"Outsider, Nerd subtype",
+			"Your cable modem is un-American",
+			"WOPR Jr. with cheese",
+			"Not commercial enough for Banksy to tag",
+			"Kill your app store",
+			"...damn kids and their pixel shaders.",
+			"This medium has metastasized and I am allergic to honey",
+			"CYBERPUNK'S NOT DEAD (it just uploaded to the grid^h^h^h^hcloud)",
+			"My other car is a cdr",
+			"If I had a soldering iron, I'd make somebody pay",
+			"make stupid_unix_joke\\r make: don't know how to make stupid_unix_joke",
+			"THIS MACHINE KILLS UNIBODY FANS",
+			"WARNING: Cognitive hazard. Think clear while in operation."
+		];
+		
+		function cycle_tagline() {
+			var idx = Math.floor(Math.random()*taglines.length);
+			document.getElementById("tagline").innerHTML = taglines[idx];
+		}
+		
+		setInterval(cycle_tagline, 30000);
+	</script>
+</head>
+<body>
+<div class="blog_title_container">
+<a href="http://www.catb.org/hacker-emblem/" class="logo">&#9723;&#9724;&#9723;
+&#9723;&#9723;&#9724;
+&#9724;&#9724;&#9724;</a>
+<h1 class="blog_title"><a href="index.html">TV Typewriter</a></h1>
+<h4 id="tagline" class="tagline" onclick="cycle_tagline()">Cyberpunk in expensive shoes</h4>
+</div>
+<div class="page_container">
+
+
+<div class="post">
+<h2 class="post_title">Language and Iconography
+</h2>
+<div class="post_body">
+	
+</div>
+<div class="post_meta">
+<span class="post_date post_meta_item">2011.12.06/16:54
+</span>
+
+</div>
+</div>
+
+
+<div class="post_comments">    
+    <div id="disqus_thread"><a class="post_meta_item" id="load_comments" href="#" onclick="load_comments()">Show Comments</a></div>
+    <script type="text/javascript">
+	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+	var disqus_identifier = '../blog/2011/lang.html';
+
+	/* * * DON'T EDIT BELOW THIS LINE * * */
+	var load_comments = (function() {
+	    var	lclink = document.getElementById("load_comments");
+    	    document.getElementById("load_comments").style.display = "none";
+	    document.getElementById("dsq_brlink").style.display = "block";
+
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	});
+	
+	window.onload = function(e) {
+	    if(window.location.hash || window.location.hash == "#disqus_thread" || window.location.hash.indexOf("#comment") == 0) {
+	        load_comments();
+	    }
+	};
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a id="dsq_brlink" style="display:none;" href="http://disqus.com" class="post_meta_item dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+</div>
+<div class="navbox">
+	<a class="navbox_link" href="index.html">Home</a>
+	<a class="navbox_link" href="blog/2011/about.html">About</a>
+	<a class="navbox_link" href="archive.html">Archives</a>
+	<a class="navbox_link" href="feed.xml">RSS</a>
+</div>
+
+<script type="text/javascript">
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+
+</body>
+</html>
+
