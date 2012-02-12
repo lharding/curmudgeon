@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	> 
+ 
+<channel> 
+	<title>Curmudgeonly Blog</title> 
+	<atom:link href="http://my.host.invalid/feed.xml" rel="self" type="application/rss+xml" /> 
+	<link>http://my.host.invalid</link> 
+	<description>My Cool Blog Feed</description> 
+	<lastBuildDate>2012-02-12 12:31:17.697401</lastBuildDate> 
+	<generator>curmudgeon v0.01</generator> 
+	<language>en</language> 
+	<sy:updatePeriod>hourly</sy:updatePeriod> 
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<item> 
+			<title>Hello, world!
+</title> 
+			<link>http://my.host.invalid/blog/2012/test.html</link> 
+			<comments>http://my.host.invalid/blog/2012/test.html#disqus_thread</comments> 
+			<pubDate>2011.03.08.5:30
+ +0000</pubDate> 
+			<dc:creator></dc:creator> 
+			<category><![CDATA[Uncategorized]]></category> 
+
+			<guid isPermaLink="false">blog/2012/test.html</guid> 
+			<description><![CDATA[]]></description> 
+			<content:encoded><![CDATA[This is a simple blog post. Line 1 is the title, line 2 is the date (gets sorted in lexical order for archive pages), the remainder is the content.
+]]></content:encoded> 
+		</item>
+	</channel> 
+</rss> 

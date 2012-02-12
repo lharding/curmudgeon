@@ -1,58 +1,32 @@
 <html>
 <head>
-	<title>TV Typewriter - Language and Iconography
+	<title>Curmudgeonly Blog - Hello, world!
 </title>
-	<link rel="stylesheet" type="text/css" href="assets/style.css" />
+	<link rel="stylesheet" type="text/css" href="/assets/style.css" />
 	<script type="text/javascript">
 		/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-		var disqus_shortname = 'fremde'; // required: replace example with your forum shortname
-		var disqus_developer = 0; // developer mode is on
-
-		var taglines = [
-			"I've got two red buttons and a four way pad",
-			"Kobayashi Maru on Legendary",
-			"Outsider, Nerd subtype",
-			"Your cable modem is un-American",
-			"WOPR Jr. with cheese",
-			"Not commercial enough for Banksy to tag",
-			"Kill your app store",
-			"...damn kids and their pixel shaders.",
-			"This medium has metastasized and I am allergic to honey",
-			"CYBERPUNK'S NOT DEAD (it just uploaded to the grid^h^h^h^hcloud)",
-			"My other car is a cdr",
-			"If I had a soldering iron, I'd make somebody pay",
-			"make stupid_unix_joke\\r make: don't know how to make stupid_unix_joke",
-			"THIS MACHINE KILLS UNIBODY FANS",
-			"WARNING: Cognitive hazard. Think clear while in operation."
-		];
-		
-		function cycle_tagline() {
-			var idx = Math.floor(Math.random()*taglines.length);
-			document.getElementById("tagline").innerHTML = taglines[idx];
-		}
-		
-		setInterval(cycle_tagline, 30000);
+		var disqus_shortname = '...'; // required: replace example with your forum shortname
+		var disqus_developer = 0; // developer mode is off
 	</script>
 </head>
 <body>
 <div class="blog_title_container">
-<a href="http://www.catb.org/hacker-emblem/" class="logo">&#9723;&#9724;&#9723;
-&#9723;&#9723;&#9724;
-&#9724;&#9724;&#9724;</a>
-<h1 class="blog_title"><a href="index.html">TV Typewriter</a></h1>
-<h4 id="tagline" class="tagline" onclick="cycle_tagline()">Cyberpunk in expensive shoes</h4>
+<a href="http://something/" class="logo">My Logo</a>
+<h1 class="blog_title"><a href="/index.html">Curmudgeonly Blog</a></h1>
+<h4 id="tagline" class="tagline">Curmudgeon is cool!</h4>
 </div>
 <div class="page_container">
 
 
 <div class="post">
-<h2 class="post_title">Language and Iconography
+<h2 class="post_title">Hello, world!
 </h2>
 <div class="post_body">
-	
+	This is a simple blog post. Line 1 is the title, line 2 is the date (gets sorted in lexical order for archive pages), the remainder is the content.
+
 </div>
 <div class="post_meta">
-<span class="post_date post_meta_item">2011.12.06/16:54
+<span class="post_date post_meta_item">2011.03.08.5:30
 </span>
 
 </div>
@@ -63,7 +37,7 @@
     <div id="disqus_thread"><a class="post_meta_item" id="load_comments" href="#" onclick="load_comments()">Show Comments</a></div>
     <script type="text/javascript">
 	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-	var disqus_identifier = '../blog/2011/lang.html';
+	var disqus_identifier = 'blog/2012/test.html';
 
 	/* * * DON'T EDIT BELOW THIS LINE * * */
 	var load_comments = (function() {
@@ -89,14 +63,14 @@
 
 </div>
 <div class="navbox">
-	<a class="navbox_link" href="index.html">Home</a>
-	<a class="navbox_link" href="blog/2011/about.html">About</a>
-	<a class="navbox_link" href="archive.html">Archives</a>
-	<a class="navbox_link" href="feed.xml">RSS</a>
+	<a class="navbox_link" href="/index.html">Home</a>
+	<a class="navbox_link" href="/blog/2012/test.html">About/Hello world!</a>
+	<a class="navbox_link" href="/archive.html">Archives</a>
+	<a class="navbox_link" href="/feed.xml">RSS</a>
 </div>
 
 <script type="text/javascript">
-    /* * * DON'T EDIT BELOW THIS LINE * * */
+	//This adds disqus comment counts
     (function () {
         var s = document.createElement('script'); s.async = true;
         s.type = 'text/javascript';
